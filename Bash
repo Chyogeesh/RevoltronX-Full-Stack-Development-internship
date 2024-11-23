@@ -1,0 +1,19 @@
+/pages
+   /api
+      products.js       # Product CRUD API
+      blogs.js          # Blog CRUD API
+   /products
+      [id].js           # Dynamic product detail page
+   /blogs
+      [id].js           # Dynamic blog detail page
+   index.js             # Homepage
+   admin.js             # Admin panel (protected route)
+/components
+   ProductCard.js       # Reusable component for product display
+   BlogPreview.js       # Reusable component for blog previews
+   AdminForm.js         # Forms for admin panel
+/styles
+   globals.css          # Tailwind CSS configuration
+/utils
+   db.js                # MongoDB connection utility
+   auth.js              # Custom authentication logic (if not using NextAuth.js)
