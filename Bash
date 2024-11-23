@@ -17,3 +17,33 @@
 /utils
    db.js                # MongoDB connection utility
    auth.js              # Custom authentication logic (if not using NextAuth.js)
+npx create-next-app@latest smart-yoga
+cd smart-yoga
+npm install mongoose tailwindcss axios next-auth
+npx tailwindcss init
+/smart-yoga
+  /pages
+    /api
+      /products
+        [id].js
+        index.js
+      /blogs
+        [id].js
+        index.js
+    /admin
+    /blogs
+      [id].js
+    /products
+      [id].js
+    index.js
+  /components
+    ProductCard.js
+    BlogPreview.js
+    AdminForm.js
+  /models
+    Product.js
+    Blog.js
+  /utils
+    db.js
+  /styles
+    globals.css
