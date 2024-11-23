@@ -97,3 +97,9 @@ Source Code: Include on GitHub or zip file.
 Live Link: Hosted on Vercel.
 Deadline: Ensure submission before November 17.
 This plan ensures a scalable, performant, and feature-rich application, demonstrating modern web development best practices.
+Step 7: Deployment
+Commit your project to GitHub.
+Deploy the project to Vercel:
+Link your GitHub repo.
+Add environment variables (e.g., MONGO_URI) in Vercel settings.
+This setup covers your homepage, product pages, API integration, and dynamic routing. Let me know if you need additional features!
